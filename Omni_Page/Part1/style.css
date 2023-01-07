@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
+    font-family: 'Chivo Mono', monospace;
 }
 
 body {
@@ -21,6 +23,7 @@ body::after{
     display: block;
     background: transparent;
     position: fixed;
+    padding-top: 20px;
 }
 
 .inner_header{
@@ -28,10 +31,50 @@ body::after{
     height: 100%;
     display: block;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .logo_container{
     height: 100%;
     display: table;
+    padding-right: 100px;
+}
+
+.logo_container img{
+    height: 100%;
+    width: 80px;
+}
+
+.nagivation{
+    height: 100%;
+}
+
+.nagivation a{
+    height: 100%;
+    display: table;
     float: left;
+    padding: 0 30px;
+}
+
+.nagivation a:last-child{
+    padding-right: 0;
+}
+
+.nagivation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    font: inherit;
+    color: white;
+}
+
+.photo{
+    background: rgba(0,0,0,0.5) url("../Resource/hero.jpg");
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
 }

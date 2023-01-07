@@ -22,3 +22,16 @@ body::after{
     background: transparent;
     position: fixed;
 }
+
+.inner_header{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}

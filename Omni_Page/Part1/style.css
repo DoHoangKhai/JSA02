@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 * {
     margin: 0;
@@ -38,7 +39,7 @@ body::after{
 .logo_container{
     height: 100%;
     display: table;
-    padding-right: 100px;
+    padding-right: 140px;
 }
 
 .logo_container img{
@@ -54,7 +55,7 @@ body::after{
     height: 100%;
     display: table;
     float: left;
-    padding: 0 30px;
+    padding: 0 40px;
 }
 
 .nagivation a:last-child{
@@ -72,10 +73,52 @@ body::after{
 }
 
 .photo{
-    background: rgba(0,0,0,0.5) url("../Resource/hero.jpg");
+    background: rgba(0,0,0,0.7) url("../Resource/hero.jpg");
     height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
+    display: flex;
+    align-items: center;
 }
 
+.text{
+    padding-bottom: 55px;
+    padding-left: 145px;
+}
+
+.text h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: lighter;
+}
+ 
+.text button{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.text button#o {
+    justify-content: center;
+    padding: 10px 30px;
+    font-size: 11px;
+    border-radius: 100px;
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.text button#t {
+    justify-content: center;
+    padding: 10px 30px;
+    font-size: 11px;
+    border-radius: 100px;
+    border: 2px solid orange;
+    background-color: transparent;
+    color: orange;
+}
+
+.text h1{
+    font-family: 'Montserrat', sans-serif;
+}

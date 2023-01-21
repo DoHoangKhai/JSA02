@@ -12,11 +12,6 @@ body {
     position: relative;
 }
 
-body::after{
-    content: '';
-    display: block;
-    height: 100px;
-}
 
 .header{
     width: 100%;
@@ -73,7 +68,7 @@ body::after{
 }
 
 .photo{
-    background: rgba(0,0,0,0.7) url("../Resource/hero.jpg");
+    background: rgba(0,0,0,0.7) url("./Resource/hero.jpg");
     height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -121,4 +116,62 @@ body::after{
 
 .text h1{
     font-family: 'Montserrat', sans-serif;
+}
+
+.dash{
+    width: 100px;
+    border-top: 3px solid orange;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.part2 h1{
+    padding: 35px 0;
+    font-weight: 50;
+}
+
+.part2 h5{
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    width: 65%;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+.box_child{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    margin: 0 7px;
+    background-color: aquamarine;
+}
+
+.i{
+    font-size: ;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 5px 0;
+}
+
+.text1{
+    font-size: 14px;
+    font-weight: lighter;
 }

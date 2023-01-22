@@ -10,6 +10,7 @@
 
 body {
     position: relative;
+    background-color: whitesmoke;
 }
 
 
@@ -129,16 +130,16 @@ body {
     align-items: center;
     width: 100%;
     height: 200px;
+    margin-bottom: 20px;
 }
 
 .part2 h1{
-    padding: 35px 0;
+    padding: 25px 0;
     font-weight: 50;
 }
 
 .part2 h5{
-    padding-top: 35px;
-    padding-bottom: 20px;
+    padding-top: 25px;
     font-weight: lighter;
     width: 65%;
 }
@@ -147,31 +148,86 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 300px;
-    background-color: antiquewhite;
+    height: 270px;
     justify-content: center;
 }
 
 .box_child{
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 220px;
     height: 100%;
-    margin: 0 7px;
-    background-color: aquamarine;
+    margin: 0 20px;
 }
 
-.i{
-    font-size: ;
+.fa-solid, .fa-regular{
+    color: orange;
 }
 
 .title{
     font-size: 18px;
     font-weight: lighter;
-    margin: 5px 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .text1{
     font-size: 14px;
     font-weight: lighter;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 20px;
+}
+
+.part3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ph{
+    display: block;
+    width: 25%;
+    height: 230px;
+    background-blend-mode: lighten;
+}
+
+#one{
+    background: rgba(255, 255, 255, 0.3) url("./Resource/1.jpg");
+    background-size: cover;
+}
+
+#two{
+    background: rgba(255, 255, 255, 0.3) url("./Resource/2.jpg");
+    background-size: cover;
+}
+
+#tr{
+    background: rgba(255, 255, 255, 0.3) url("./Resource/3.jpg");
+    background-size: cover;
+}
+
+#f{
+    background: rgba(255, 255, 255, 0.3) url("./Resource/4.jpg");
+    background-size: cover;
+}
+
+#fi{
+    background: rgba(255, 255, 255, 0.3) url("./Resource/5.jpg");
+    background-size: cover;
+}
+
+#s{
+    background: rgba(255, 255, 255, 0.3) url("./Resource/6.jpg");
+    background-size: cover;
+}
+
+#se{
+    background: rgba(255, 255, 255, 0.3) url("./Resource/7.jpg");
+    background-size: cover;
+}
+
+#e{
+    background: rgba(255, 255, 255, 0.3) url("./Resource/8.jpg");
+    background-size: cover;
 }

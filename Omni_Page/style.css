@@ -437,3 +437,52 @@ a{
     cursor: pointer;
 }
 
+.part7{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+
+.login{
+    float: right;
+    width: 55%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login h1{
+    font-weight: lighter;
+}
+
+.input-box{
+    background-color: aquamarine;
+    height: 65%;
+    width: 100%;
+}
+
+.labeling{
+    font-size: 15px;
+    color: rgb(14, 14, 14);
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.styling{
+    width: 65%;
+    padding: 7px 0;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-top: 9px;
+}
+
+.radio{
+    padding: 9px 0;
+    width: 436px;
+    border: 1px solid lightgray;
+    margin-left: 55px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}

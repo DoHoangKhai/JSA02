@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body{
+    background: #086375;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#output{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: #1DD3B0; 
+    border-radius: 15px; 
+    width: 300px; 
+    height: 320px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px; 
+    margin-right: 10px
+}
+
+img{
+    width: 55%; 
+    margin-bottom: 10px;
+}
+

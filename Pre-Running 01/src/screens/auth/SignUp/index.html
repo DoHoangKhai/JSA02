@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="box_img"><img src="../../../../assets/img/Reading book 1.png" alt=""></div>
+            
+            <div class="box_form">
+                <h1>Login</h1>
+                <h4>Don't have an account? <a href="../SignIn/">Create Now</a></h4>
+    
+                <div class="box_input">
+                    <label for="name">Email</label>
+                    <input type="text" id="name" placeholder="Enter Email">
+                    <div id="error-email" class="error"></div>
+    
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" placeholder="Enter Password">
+                    <div id="error-password" class="error"></div>
+    
+                    <button onclick="check()">Login</button>
+                    <h5>Forgot a password?</h5>
+                </div>
+    
+                <div class="box_seperate">
+                    <div class="line"></div>
+                    <h3>Or</h3>
+                    <div class="line"></div>
+                </div>
+    
+                <button class="box_button"> <img src="../../../../assets/icon/facebook.png" alt="" class="icon">Countinue with Facebook</button>
+                <button class="box_button"> <img src="../../../../assets/icon/google.png" alt="" class="icon">Countinue with Google</button>
+            </div>
+        </div>
+    </div>
+    <script src="./SignUp.js"></script>
+</body>
+</html>

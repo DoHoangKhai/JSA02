@@ -138,3 +138,19 @@ button{
 .icon{
     margin-right: 8px;
 }
+
+#eyes{
+    width: 27px;
+    height: 20px;
+    background-image: url(../../../../assets/icon/Vector.svg);
+    background-size: cover;
+    position: absolute;
+    left: 83%;
+    top: 37%;
+    cursor: pointer;
+}
+
+#eyes img{
+    object-fit: cover;
+    width: 100%;
+}

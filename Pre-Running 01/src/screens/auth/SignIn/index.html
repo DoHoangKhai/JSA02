@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="./SignIn.js"></script>
 </head>
 <body>
     <div class="container">
@@ -22,18 +23,24 @@
 
                     <label for="firstname">First name</label>
                     <input type="text" id="firstname" placeholder="Martin">
+                    <div id="error-firstname" class="error"></div>
     
                     <label for="lastname">Last name</label>
                     <input type="text" id="lastname" placeholder="Cooper">
+                    <div id="error-lastname" class="error"></div>
 
                     <label for="email">Email</label>
                     <input type="text" id="email" placeholder="cooper.martin@gmail.com">
+                    <div id="error-email" class="error"></div>
 
                     <label for="password">Password</label>
                     <input type="password" id="password" placeholder="Password">
+                    <div id="error-password" class="error"></div>
 
                     <label for="conpassword">Confirm Password</label>
                     <input type="password" id="conpassword" placeholder="Password">
+                    <div id="error-conpassword" class="error"></div>
+
     
                     <button onclick="check()">Login</button>
                     <h5>Forgot a password?</h5>
@@ -50,6 +57,6 @@
             </div>
         </div>
     </div>
-    <script src="./SignIn.js"></script>
+<script src="./SignIn.js"></script>
 </body>
 </html>

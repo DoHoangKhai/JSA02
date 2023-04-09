@@ -172,3 +172,10 @@ button{
     width: 100%;
 }
 
+.box_input .error h5{
+    color: #FF0C3E;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
